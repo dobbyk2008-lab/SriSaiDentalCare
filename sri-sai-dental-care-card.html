@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sri Sai Dental Care — Dental Care in Bengaluru</title>
+<meta name="description" content="Sri Sai Dental Care, Hanumanthanagar, Bengaluru — since 2004. WhatsApp, call, get directions, meet the doctors and see opening hours.">
+<meta name="theme-color" content="#FBF8F3">
+
+<!-- Open Graph (WhatsApp / Instagram previews). Replace the two URLs with your live ones. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sri Sai Dental Care">
+<meta property="og:title" content="Sri Sai Dental Care — Dental Care in Bengaluru">
+<meta property="og:description" content="Since 2004 in Hanumanthanagar. WhatsApp us, call, or get directions in one tap.">
+<meta property="og:url" content="https://srisaidentalcare.com/card/">
+<meta property="og:image" content="https://srisaidentalcare.com/card/og-card.jpg">
+<meta property="og:image:alt" content="Sri Sai Dental Care">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink:#0C1A17;--deep:#0E3A33;--teal:#15695C;--teal-600:#11564B;
+  --mint:#E3F0EB;--mint-2:#F2F8F5;--gold:#BE9B55;--gold-soft:#EFE3CB;
+  --ivory:#FBF8F3;--paper:#fff;--muted:#5D6B66;--line:#E6E1D8;
+  --wa:#25D366;
+  --c-teal:#12897A;--c-teal-s:#E2F3F0;--c-coral:#F4704F;--c-coral-s:#FDEAE4;
+  --c-amber:#E0A017;--c-amber-s:#FCF1DC;--c-sky:#3B93D4;--c-sky-s:#E4F0FA;
+  --r-md:18px;--r-lg:26px;--r-xl:36px;
+  --sh-1:0 1px 2px rgba(12,26,23,.04),0 6px 18px rgba(12,26,23,.05);
+  --sh-2:0 2px 6px rgba(12,26,23,.05),0 18px 40px rgba(12,26,23,.09);
+  --ease:cubic-bezier(.22,.8,.3,1);
+  --f-display:"Fraunces","Georgia","Times New Roman",serif;
+  --f-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:clip;
+  padding:max(14px,env(safe-area-inset-top)) max(14px,env(safe-area-inset-right)) max(28px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;line-height:1.1;letter-spacing:-.02em;margin:0}
+p{margin:0}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:8px}
+
+.page{position:relative;max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-xl);box-shadow:var(--sh-2);padding:28px 22px}
+
+.eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--teal);
+  display:inline-flex;align-items:center;gap:10px;margin-bottom:12px}
+.eyebrow::before{content:"";width:26px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--c-coral),var(--c-amber))}
+.h-sec{font-size:clamp(1.8rem,7.4vw,2.2rem);margin-bottom:20px}
+.alt{font-style:italic;background:linear-gradient(100deg,var(--c-teal),#17A8A0 45%,var(--c-sky));
+  -webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.06em}
+
+/* buttons */
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:15px 24px;border-radius:999px;
+  font-weight:600;font-size:1rem;width:100%;transition:transform .35s var(--ease),box-shadow .35s var(--ease),background .25s}
+.btn svg{width:21px;height:21px;flex:none}
+.btn:active{transform:scale(.98)}
+.btn-wa{background:var(--wa);color:#04281A;box-shadow:0 10px 26px rgba(37,211,102,.32)}
+.btn-dark{background:linear-gradient(120deg,var(--deep),var(--c-teal));color:#fff;box-shadow:var(--sh-2)}
+.btn-ghost{border:1.5px solid var(--line);background:var(--paper);color:var(--ink)}
+.btn-light{background:#fff;color:var(--deep);box-shadow:0 10px 26px rgba(0,0,0,.22)}
+.btn-sm{min-height:52px;padding:12px 10px;font-size:.92rem;gap:8px;white-space:nowrap}
+@media (hover:hover){
+  .btn:hover{transform:translateY(-3px)}
+  .btn-ghost:hover{border-color:var(--teal);color:var(--teal)}
+}
+
+/* hero */
+.hero{position:relative;text-align:center;padding:34px 22px 26px;isolation:isolate;overflow:hidden}
+.blob{position:absolute;border-radius:50%;filter:blur(54px);opacity:.55;z-index:-1;pointer-events:none}
+.b1{width:280px;height:280px;right:-90px;top:-80px;background:radial-gradient(circle at 30% 30%,#A8DED2,#D7F0E8 55%,transparent 72%);animation:f1 22s ease-in-out infinite}
+.b2{width:230px;height:230px;left:-90px;top:150px;background:radial-gradient(circle at 60% 40%,#FFD9C7,#FFF0E6 58%,transparent 72%);animation:f2 26s ease-in-out infinite}
+.b3{width:200px;height:200px;right:-40px;bottom:-60px;background:radial-gradient(circle,#D9D2FA,#EFEBFD 58%,transparent 72%);opacity:.42;animation:f1 30s ease-in-out infinite reverse}
+@keyframes f1{0%,100%{transform:translate(0,0)}50%{transform:translate(-16px,18px)}}
+@keyframes f2{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-14px)}}
+.mark{width:76px;height:76px;margin:0 auto 16px;filter:drop-shadow(0 8px 18px rgba(21,105,92,.2))}
+.est{display:inline-flex;align-items:center;gap:8px;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;
+  color:var(--muted);background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:999px;padding:7px 14px;margin-bottom:16px}
+.est b{color:var(--c-coral);font-weight:700}
+.hero h1{font-size:clamp(2.4rem,11vw,3.1rem);letter-spacing:-.035em}
+.hero h1 .alt{display:block}
+.tag{margin-top:12px;color:var(--muted);font-size:1.04rem}
+.actions{display:flex;flex-direction:column;gap:12px;margin-top:26px}
+
+/* doctors */
+.docs{display:flex;flex-direction:column;gap:14px}
+.doc{display:flex;gap:16px;align-items:center;background:var(--mint-2);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px}
+.ph{position:relative;width:88px;height:88px;flex:none;border-radius:50%;background:linear-gradient(140deg,var(--c-teal),#17A8A0);padding:3px}
+.ph img,.mono{width:100%;height:100%;border-radius:50%;object-fit:cover;background:var(--mint);border:3px solid #fff;display:grid;place-items:center}
+.mono{font-family:var(--f-display);font-size:1.8rem;color:var(--teal);background:radial-gradient(circle at 35% 30%,var(--mint),var(--mint-2))}
+.role{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--c-coral);font-weight:700;margin-bottom:4px}
+.doc h3{font-size:1.18rem;margin-bottom:8px}
+.qual{display:inline-block;font-size:.76rem;font-weight:600;padding:5px 11px;border-radius:999px;background:var(--mint);color:var(--teal-600);border:1px solid #D4E6E0;margin-bottom:8px}
+.qual.todo{background:var(--gold-soft);color:#7A6026;border-color:#E3D3B4}
+.doc p{font-size:.9rem;color:var(--muted);line-height:1.5}
+.sub{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:22px 0 12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips.col{flex-direction:column;gap:10px}
+.chips.col .pill{width:100%;border-radius:var(--r-md)}
+.pill{display:inline-flex;align-items:center;gap:10px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 16px 7px 7px;box-shadow:var(--sh-1);min-height:48px}
+.av{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:none;font-family:var(--f-display);font-size:.8rem;font-weight:600;color:#fff;
+  background:linear-gradient(140deg,var(--ac),color-mix(in srgb,var(--ac) 55%,#fff))}
+.pill b{display:block;font-size:.88rem;font-weight:600;line-height:1.2}
+.pill small{display:block;font-size:.72rem;color:var(--muted);line-height:1.25}
+
+/* services */
+.svc{display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:9px 16px;border-radius:999px;font-size:.9rem;font-weight:500;
+  background:var(--ac-s);color:var(--ink);border:1px solid color-mix(in srgb,var(--ac) 22%,transparent)}
+.svc::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--ac)}
+.a0{--ac:var(--c-teal);--ac-s:var(--c-teal-s)}.a1{--ac:var(--c-coral);--ac-s:var(--c-coral-s)}
+.a2{--ac:var(--c-amber);--ac-s:var(--c-amber-s)}.a3{--ac:var(--c-sky);--ac-s:var(--c-sky-s)}
+
+/* visit */
+.visit{background:linear-gradient(150deg,#0A3B34 0%,var(--deep) 45%,#10544A 100%);color:#EAF3F0;border-color:#0A2B26;position:relative;overflow:hidden;isolation:isolate}
+.visit::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(circle at 92% 6%,rgba(23,168,160,.3),transparent 42%),radial-gradient(circle at 4% 98%,rgba(224,160,23,.2),transparent 44%)}
+.visit .eyebrow{color:#8FCCBE}.visit .eyebrow::before{background:var(--gold)}
+.visit h2{color:#fff}
+.status{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:9px 16px;border-radius:999px;font-weight:600;font-size:.92rem;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);margin-bottom:6px}
+.dot{width:10px;height:10px;border-radius:50%;background:#8FA39D;flex:none}
+.status.open .dot{background:var(--wa);box-shadow:0 0 0 0 rgba(37,211,102,.6);animation:pulse 2s infinite}
+.status.closed .dot{background:var(--c-coral)}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.row{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.row:last-of-type{border-bottom:0}
+.row svg{width:22px;height:22px;flex:none;color:#8FCCBE;margin-top:3px}
+.k{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:#8FCCBE;margin-bottom:4px}
+.v{line-height:1.55;color:#F2F8F6}
+.v small{display:block;color:#B6CFC8;font-size:.88rem;margin-top:2px}
+.hrs{display:flex;justify-content:space-between;gap:14px;padding:3px 0}
+.hrs span:last-child{color:#CBE0DA;text-align:right}
+.hrs.off span:last-child{color:#F0C2B0}
+.visit .btn{margin-top:14px}
+
+/* trust + footer */
+.trust{display:flex;align-items:center;gap:14px;min-height:72px;padding:16px 20px;border-radius:var(--r-lg);background:var(--paper);border:1px solid var(--line);box-shadow:var(--sh-1)}
+.trust .stars{display:flex;gap:2px;color:var(--gold)}
+.trust .stars svg{width:17px;height:17px}
+.trust p{font-weight:600;line-height:1.3;flex:1;font-size:.96rem}
+.trust small{display:block;font-weight:500;color:var(--muted);font-size:.8rem}
+.trust>svg{width:20px;height:20px;color:var(--teal);flex:none}
+.foot{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.web{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;color:var(--teal);font-weight:600;font-size:.92rem}
+.web svg{width:18px;height:18px}
+.copy{text-align:center;color:var(--muted);font-size:.78rem}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translate(-50%,20px);opacity:0;pointer-events:none;
+  background:var(--ink);color:#fff;padding:13px 22px;border-radius:999px;font-size:.92rem;font-weight:500;transition:.35s var(--ease);z-index:10}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* motion */
+.fu{opacity:0;transform:translateY(16px);animation:fu .7s var(--ease) forwards;animation-delay:var(--d,0s)}
+@keyframes fu{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .fu{opacity:1;transform:none}
+}
+@media (min-width:600px){body{padding-top:36px}.card{padding:34px 30px}.hero{padding:40px 30px 30px}}
+@media (max-width:360px){.doc{flex-direction:column;text-align:center}.foot{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="page" id="top">
+
+  <!-- 1. HERO -->
+  <header class="card hero fu" aria-labelledby="clinic-name">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+    <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="23" fill="#E3F0EB"/>
+      <path d="M24 12c-3.2 0-4.2 1.6-6.7 1.6-2.8 0-4.8 1.9-4.8 6.3 0 3.8 1.4 5.7 2.4 9.5.8 3.2 1 7.9 3.2 7.9 2.1 0 2.4-3.5 3.2-6.4.4-1.7 1-2.5 2.7-2.5s2.3.8 2.7 2.5c.8 2.9 1.1 6.4 3.2 6.4 2.2 0 2.4-4.7 3.2-7.9 1-3.8 2.4-5.7 2.4-9.5 0-4.4-2-6.3-4.8-6.3-2.5 0-3.5-1.6-6.7-1.6Z" fill="#15695C"/>
+      <path d="M18.5 18.5c-1 2.6-.6 6.4.6 9" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".7" fill="none"/>
+    </svg>
+    <div class="est">Since <b id="est">2004</b></div>
+    <h1 id="clinic-name">Sri Sai <span class="alt">Dental Care</span></h1>
+    <p class="tag" id="tagline">Dental Care in Bengaluru</p>
+    <div class="actions">
+      <a class="btn btn-wa" id="b-wa" target="_blank" rel="noopener" aria-label="Chat with Sri Sai Dental Care on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 3.6A11.66 11.66 0 0 0 12.04 0C5.6 0 .36 5.24.35 11.68c0 2.06.54 4.07 1.57 5.85L.25 24l6.61-1.73a11.66 11.66 0 0 0 5.18 1.24h.01c6.44 0 11.68-5.24 11.69-11.68a11.6 11.6 0 0 0-3.42-8.27ZM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.37 9.37 0 0 1-1.44-5.01c0-5.18 4.23-9.4 9.42-9.4a9.36 9.36 0 0 1 6.65 2.76 9.32 9.32 0 0 1 2.76 6.65c0 5.18-4.23 9.41-9.42 9.41Zm5.43-7.12c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.38-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.07-.13-.27-.2-.57-.35Z"/></svg>
+        WhatsApp Us
+      </a>
+      <a class="btn btn-dark" id="b-call" aria-label="Call Sri Sai Dental Care">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+        <span id="b-call-t">Call</span>
+      </a>
+      <a class="btn btn-ghost" id="b-dir" target="_blank" rel="noopener" aria-label="Get directions to Sri Sai Dental Care in Google Maps">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-8-8 18-2-8-8-2Z"/></svg>
+        Get Directions
+      </a>
+    </div>
+  </header>
+
+  <!-- 2. DOCTORS -->
+  <section class="card fu" style="--d:.08s" aria-labelledby="h-docs">
+    <div class="eyebrow">Our team</div>
+    <h2 class="h-sec" id="h-docs">Meet your <span class="alt">doctors</span></h2>
+    <div class="docs" id="docs"></div>
+    <div class="sub" id="cons-label">Visiting consultants</div>
+    <div class="chips col" id="cons" role="list" aria-labelledby="cons-label"></div>
+  </section>
+
+  <!-- 3. SERVICES -->
+  <section class="card fu" style="--d:.14s" aria-labelledby="h-svc">
+    <div class="eyebrow">Treatments</div>
+    <h2 class="h-sec" id="h-svc">What we <span class="alt">offer</span></h2>
+    <div class="chips" id="svc" role="list"></div>
+  </section>
+
+  <!-- 4. VISIT US -->
+  <section class="card visit fu" style="--d:.2s" aria-labelledby="h-visit">
+    <div class="eyebrow">Find us</div>
+    <h2 class="h-sec" id="h-visit">Visit <span class="alt">us</span></h2>
+    <div class="status" id="status" role="status" aria-live="polite"><span class="dot" aria-hidden="true"></span><span id="status-t">Checking hours…</span></div>
+    <div class="row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      <div><div class="k">Address</div><div class="v" id="addr"></div></div>
+    </div>
+    <div class="row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+      <div style="flex:1"><div class="k">Hours</div><div class="v" id="hours"></div></div>
+    </div>
+    <a class="btn btn-light" id="b-map" target="_blank" rel="noopener" aria-label="Open Sri Sai Dental Care in Google Maps">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4 3 6.5v14L9 18l6 2.5 6-2.5v-14L15 6.5 9 4Z"/><path d="M9 4v14M15 6.5v14"/></svg>
+      Open in Google Maps
+    </a>
+  </section>
+
+  <!-- 5. TRUST -->
+  <a class="trust fu" style="--d:.26s" id="trust" target="_blank" rel="noopener">
+    <span class="stars" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5Z"/></svg>
+    </span>
+    <p><span id="trust-t"></span><small>See reviews on Google</small></p>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+  </a>
+
+  <!-- 6. FOOTER -->
+  <footer class="fu" style="--d:.32s">
+    <div class="foot">
+      <button class="btn btn-dark btn-sm" id="b-save" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+        Save contact
+      </button>
+      <button class="btn btn-ghost btn-sm" id="b-share" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+        Share this card
+      </button>
+    </div>
+    <a class="web" id="b-web" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+      Visit our full website
+    </a>
+    <p class="copy" id="copy"></p>
+  </footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/ld+json" id="ld"></script>
+<!-- DOCTOR PHOTOS: square 256x256 WebP, inlined so the card is one file.
+     To swap one, paste a new data: URI or a file path (e.g. "img/dr-mahendra.webp").
+     A missing or broken photo falls back to a monogram avatar. -->
+<script>
+var PHOTOS = {
+  mahendra: "data:image/webp;base64,UklGRjgNAABXRUJQVlA4ICwNAADwZgCdASoAAQABPm0wkUY/v6GmLraaQ/ANiWcDyJ0zJW64P9V3L5ife4jdezgA/arD//T/6P/Smf1g+Hb/mWxTWrAMdRvSHDhlhzifVE0zKlynzGy7J3WxepgXANDu0Ip4qFRscbD6zPEIKsItBYMxob+efN/RYRT7CUawHMMbT4qNuKXJ3NQdl/eZw16wzzBASp9B8160E3H9PDiDQmeOWuZiaTELqH1mpCmEe3tPcBzjg86vjRN4HbGtL5sgAloi2D7RjyfhdmDC9BwpCim1Q1it0DSrApWU4+eaQClG66a0ob+MTuBuVzl5409JQmABqTtRuvbxaePlhyL66cbvWUuNkQUUvoj1aNP1TBMm6Tk2yLs4/92ve3YWGDv3K8bHELHw6sfMC/BIYR6FvB2rVQHdIZDVFEQOZ3rQS/OAelcxPoWFsU/zLO7Q9Jxj/nkFaAQFBInIep1f9EfCGIXkpRxGUfPRbJ9RCid3LyeV57Fv134ht0qjU2IORITamYi5zOvT3VjNB5rvM2fFxaa7TUhSZz64NlWeGbDpNgfDZayoP9A7vPr/Vv2RTXSf9k7Kpf/iftE8u/WpYpQa6zsMFcCh2ItixdeqdFv8gaePnkWFf9URTvWj50kJDijxod0TwiO8BVf7rC084V4gNzUsVeqabfBCkbMdLV4CD+VOKGC3hcpQmdZWMWVkS6G9LSOn9rUmS3RQM0/XuoRG9faP62Zs4fExDuu9jd9f71UtfyA0QZ9Zt9zDitA3/mC+wK6Jgwslw6X3uGdciJs2qhe8ZV3BsaocfcNzJf4NRzIlvLO9/ubPKEBubrbAwB1dEqpYVnKrpF6j3FtCK1BtrNtskmoAsAnu1aokLQKBwn9J08aN8F/ewuEPcj4dw2lkrN13vLrdHAV+tJHGmOG0EevVEtK9s6F1bB5KrfUgbYFJAferboEivmFu0sYswGKbcv2KcnTsJULSFshOklZAZcbf5gWkBqA4dCQUSl+KaAxb5dCQv+i+uyq8E3Eb4NNFl4VWI9wggwbtYFxTXzMskEo3fK6Pxr/fXeRJw16DFziiNdOLpwLyNrM79atC9g9o/I1McvUUPmtwjHkGJOEj0TrAAP73+a/+NW/+Gab//hFZbVetRZm6Kvrj6zi/Pj+m5RYL1Myis12a5PiPim7yH81Fi3Jbq5NZdnM0EjiU8s2yoCkiXi8xbgvUsjF2f4Xck7uCxQcX8qzBSNV1B72OGod7i5G9YpsRFxECzY/Bi0/gPBKz/qqP8gwRr9sbHr/yyqf+cx56OucyTf6A0P6Y2O/klg8+xEm+Pj8ZtPO9Le1tke4WAhl/vKtJRj+CeTF2r39Obg2SH55qbcc1HuIUMqrTxeBYtMLqHrhrwSiEs1GCscKQmrRqaPh9VQwpH7qQidbC6d96Wtirfum7bT1PgO+uc87o3GB0LDF5WjRCdwy79XvAR7xe5gC4wcLiZwD5t5fc98srOLHDkzCwX6tI/VaDW+IqBDAzHkW77/pfFrEUBmJRfntU7nv7OfD+j/pT0zMrL4F/Nk9BXUhmBFSUxj4ZXrdkMs/Q/k7hIQ1N7CvW9troBiXTQ2WxkAT+OykYUE0e2oSC4h625bW/MrxiA47K/zho1cKGkDdThRfO8T8IAFxC7ia0aqgEbZ/KO22+wqmV252MDvqgeaFTyUbKwtzWJBOlNaGR2w+9BPTxopXJSN2BSFfJXAR9ef3WKfDbYgGsGNc70BqymFsZC99TnZACVd0fizEbHqjPBb0aeDonYl+DPyWeN/CKmwMro0jDdK5ljcmeSJodakXe0ECVy5isJgB49sliIyGR4d16ay1qOtUQAe0JC+DTvdwMJk7wm0qV1nB72phRCokEYII9Ia0qpTHU4Ernqf5FajjzoquLIcHbDg4zzyeld3FDXEBK0ixeXY3yMTKVmsAGuaPJAQ0rjjP+QTfEpA4PpA2OIZxm2ddfsBQoNlvJpVBkJmFPo4uW1Kl4OFMePEDacaj9rOD3FeueF87/f++oYt+Rt06UnSaslTquFZpPM2bBF8F0gBVO8SdnZ4iQv3DstQvDsoQwCRi7X8lwvU3Blm98EMzXVRlyO8dUVVPlMvWoc1MMhQ486RCsLDQmedTUk4zvZqjplrUjc7/H5kkO7YRe1tL0fI7vZgK+VIqm6tVTSjXgRiz82aImnkCWVUUAv2zcB8IvgBk3IFsixKkaCZzvKFA3VPR2nXe0va99+JsdjyFXoltFJUqfKPlO+OByJyQNHs3GCgZHD8ej8Y1iBsIGsG0h8MlHQLW+NJuvDpWKFW1MRNqW0SnfAuJTLBckmRz/Qk3NG0vQqKR1iehFS+RetYihwh6KbuX93zUjWs7VpmIehD9vljEREArdZphyiYxemPg9VrEkdy+Cf9E86XJlTltScgC8GfoATVi6YCmVuRPW6ESYJ3AdnpCiUF+kOnICjiAdJ/t73yO32CAJOtjoBLIcW0nvk7F9dLhIAAQywlGWOgmjkaxGICub7A2VQ/21TYpwDTPS8XH7qQX6gMB3Yk830C8reKWf2T9zrxXN+oA6/emb3amkv7Lf703dhlyx4mNIYsoP+3INV/EAVxyRFT48uCZblzExzMXYHtjrn/AF95Ag5lwOpDLHSToNlGj5oZWAZx9aFDBqF22eAEfLrAg7xAbf4X5szg01khf9w60t3BzjyJfELeNpXL3H1FesYC/b64vhpuf54iK0CxbM1hNIdGIJvdf2D/UqutHThoX9OrUQ7qlbeEh1kJ3Pcblq2mT2HHMvu3XJ9HWzJohErR0H3EhY8FZxWXqgsVApKdLjHImuK6MZ9mcjPVDgrQYS7K9zm4rh2wBk24lSAclo7Tmz6yFMwY+Mu+GOX0LRf5RDKK3AV6Y1eVtnmtdygeVbELXxcvU/0socjJpR1W8illv7WLjrzvgv4UNskRzgIpN27IvA+zuWpRrsGLwrFsO/3kye7ArSrbh0LjsWZlJAQIZ4ti2xX7Jge8TEdk7aK5byfNmgVZCcY/CEO8pjG98CX9FqVUOnTK9DaQIHDQArbXRqJHYpzRgqCKTRkZZzJ3uFYuPtEI/Idupl54FoVdqHFriqwkGWCKeOHrwWh3nPQzeSCV8P7XJeHLvD2M5pZ17i8biWD1JQqvDb2XmH11+9njp+/U+9emG+OSdfSCSjE6prD5GtG+PT6uMuOj5INPRyYvqag7sSV2qb8qOWOfON/FTo/nAgXZRRlt/+LVkH1u3tHsHirCifvaPLQsB1D5/6YkZdkbTTBxcP9ZjVQJgQ9vOJ8SLM0ray+FqBHqlDxLldKgjnQgv6AgChwnSBgL3/3QyYbgDwtAa3JjKrr7GzRFB2ysUVlPG7NPbK7KfJrPqilNNj+dNgqhiqKZtqEiriL2IEe78qNuzV6z7dU7sQE0WMNWIQTYLXWKhdFm3sMYuhNg0IRRxFf6FYEu9uja/onog3Wtkg242xzBpOK3QhNQdNcDZ/jyuf617coqaXS9+tBo2n8lmIC71U0iVAD6ie2+sgjSWE3kxzEwQGbR/jr3fbfyEOtMviTwFfqSFAFmQVklfAWlifPDKn4piPFmVrgu1pQ9xPaNhzZlNXzwiH2rqc14nMigOvAmkcKEs+jLousdEzNolIas+hbdbuZ9204HlqF4HTW0AtZW65BGselse2pZp5ajqpjmHsXtLqvxTcd82q+VA28ZJY7Hye31u+OcTQ/CDVAfUSaay3tlPGFTnB6RJlOui0x3r6iY1MwVrj8LsdrdMsMmADiyxUB1ZZw5tCmVzqaBvSnfEcLtWx4R5CQOi0uosHm2zwzQJCY7eYmpJH/rel/ej5x40grkgUs5CmXbNixxqNF490B2wLhMf4wftGxb022sr8k+6QXMSEZXNXtsduKZaQUpAqsVYmmFohyzVTVvg36gz8Kapy+s6XXlw1YuAD9ChPsB+Gcy9hBAtpogliQQDOH9zA2J4Bqho8WYscTsYvvBt1Qd0Y5jAEfrTjV1CGKiWA1bMgU3q2gzbMaMQEMxuxhRe30PoHOkDzh+DlDVH/pen2v+EEyKxNWSTlVoxdZTh27c1ZmUglu7W9hh3x83yRoOjDeGPzeSCXstgxs209FJLUO2Tmqgw0J8X79Lt/N5VdFFmNs9z+bUerHRsxwwQLLX0fxfLQo9YOJiTVXzpYbJf7bO2KEhiZfkMRnoYyPfupQaL48G0ljBEBb4qiUNbshnh5hiqGwuREtN4EVfy/fXrqYKhOkeEjicI6R5kyEH2Fv7RYAKO2eN1hG8HJdLSsmpCO3cdLW299BSDgLO8wM4xOdidm0tGu85tZqiZO/+KbfuSNsp35kxOOhf/8nv/lGaoW/z1C7vi62AnDpkVh24ZolYOA1uJWhZrVbn/pKq9MwqFw+4M7RNWGmusnE7MH/8kwMJ/hVmyGKHvypagRfyl29KgQC3Oq3wbx+3OZBMD0GlyxvCbdrkyjS+R+xuz+xWN1CV4Po430lIq1r8dtiIHAAAA=",
+  rani: "data:image/webp;base64,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"
+};
+</script>
+<script>
+/* ============================================================
+   EDIT EVERYTHING FROM THIS ONE OBJECT
+   Phone, hours, doctors, services and links all live here.
+   (Photos are in the PHOTOS object at the very bottom.)
+   ============================================================ */
+const CARD = {
+  clinic: {
+    name: "Sri Sai Dental Care",
+    tagline: "Dental Care in Bengaluru",
+    established: "2004",
+    street: "#246/A-1, Vandana Arcade, 1st Floor, 50 Ft Road",
+    landmark: "Opposite Karnataka Bank",
+    area: "Hanumanthanagar, BSK 1st Stage",
+    city: "Bengaluru", state: "Karnataka", postalCode: "560050", country: "IN",
+    geo: { lat: "12.9416179", lng: "77.5568161" },
+    websiteUrl: "http://srisaidentalcare.com",   // link back to the full site
+    cardUrl: ""                                   // this card's live URL (used by Share). Blank = current page URL.
+  },
+  contact: {
+    phone: "+919980513859",                       // used for tel: and the contact file
+    displayPhone: "+91 99805 13859",
+    whatsappNumber: "919980513859",               // digits only, with country code
+    whatsappMessage: "Hello, I would like to know more about the dental services at Sri Sai Dental Care."
+  },
+  links: {
+    directions: "https://www.google.com/maps/dir/?api=1&destination=12.9416179%2C77.5568161&destination_place_id=ChIJ-QX89iE-rjsRnFVeP6DG1OI",
+    googleListing: "https://maps.google.com/?cid=16344907339194586524",
+    reviewCount: 235
+  },
+  hours: {
+    timezone: "Asia/Kolkata",
+    openDays: [1, 2, 3, 4, 5, 6],                 // 0 = Sunday … 6 = Saturday
+    slots: [["10:00", "13:30"], ["16:30", "20:30"]],
+    openLabel: "Mon – Sat",
+    closedLabel: "Sunday"
+  },
+  doctors: [
+    { name: "Dr. Mahendra K P", role: "Founder & Chief", photo: "mahendra",
+      qualification: "[BDS / MDS]",                // <-- FILL IN
+      bio: "Founded Sri Sai Dental Care in 2004." },
+    { name: "Dr. Rani Seeba H", role: "Director & Administrator", photo: "rani",
+      qualification: "[BDS / MDS]",                // <-- FILL IN
+      bio: "Oversees patient care and the day-to-day running of the clinic." }
+  ],
+  consultants: [
+    { name: "Dr. Kishan Panicker", spec: "Oral & Maxillofacial Surgeon and Implantologist" },
+    { name: "Dr. Sudhakar Reddy",  spec: "Oral & Maxillofacial Surgeon and Implantologist" },
+    { name: "Dr. Prashanth",       spec: "Oral & Maxillofacial Surgeon and Implantologist" },
+    { name: "Dr. Lalith V",        spec: "Periodontist & Implantologist" },
+    { name: "Dr. Gowtham",         spec: "Orthodontics and Dentofacial Orthopaedics" }
+  ],
+  services: ["Dental Implants", "Root Canal Treatment", "Smile Makeover", "Braces", "Clear Aligners",
+             "Crowns & Bridges", "Veneers", "Dentures", "Kids Dentistry", "Wisdom Teeth Removal", "Dental Fillings"]
+};
+
+/* ---------- helpers ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const C = CARD.clinic, T = CARD.contact, H = CARD.hours;
+const toMin = t => { const [h, m] = t.split(":").map(Number); return h * 60 + m; };
+const fmt = t => { let [h, m] = t.split(":").map(Number); const ap = h >= 12 ? "PM" : "AM"; h = h % 12 || 12; return h + ":" + String(m).padStart(2, "0") + " " + ap; };
+const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const initials = n => { const p = n.replace(/^Dr\.?\s*/i, "").split(/\s+/); return (p[0][0] + (p[1] ? p[1][0] : "")).toUpperCase(); };
+
+/* ---------- render ---------- */
+document.title = C.name + " — " + C.tagline;
+$("est").textContent = C.established;
+$("tagline").textContent = C.tagline;
+$("b-wa").href = "https://wa.me/" + T.whatsappNumber + "?text=" + encodeURIComponent(T.whatsappMessage);
+$("b-call").href = "tel:" + T.phone;
+$("b-call-t").textContent = "Call " + T.displayPhone;
+$("b-dir").href = CARD.links.directions;
+$("b-map").href = CARD.links.googleListing;
+$("b-web").href = C.websiteUrl;
+$("trust").href = CARD.links.googleListing;
+$("trust-t").textContent = "Rated by " + CARD.links.reviewCount + " patients on Google";
+$("copy").textContent = "© " + C.name + " · Est. " + C.established;
+
+$("addr").innerHTML = esc(C.street) + "<br>" + esc(C.area) + ", " + esc(C.city) + " " + esc(C.postalCode) +
+  "<small>" + esc(C.landmark) + "</small>";
+
+const slotText = H.slots.map(s => fmt(s[0]) + " – " + fmt(s[1])).join(" · ");
+$("hours").innerHTML =
+  '<div class="hrs"><span>' + esc(H.openLabel) + '</span><span>' + slotText.replace(" · ", "<br>") + '</span></div>' +
+  '<div class="hrs off"><span>' + esc(H.closedLabel) + '</span><span>Closed</span></div>';
+
+$("docs").innerHTML = CARD.doctors.map(d => {
+  const src = d.photo && PHOTOS[d.photo];
+  const mono = '<div class="mono" aria-hidden="true">' + esc(initials(d.name)) + '</div>';
+  const pic = src ? '<img src="' + src + '" width="88" height="88" alt="Portrait of ' + esc(d.name) + '">' : mono;
+  const todo = /\[/.test(d.qualification);
+  return '<article class="doc"><div class="ph">' + pic + '</div><div>' +
+    '<div class="role">' + esc(d.role) + '</div><h3>' + esc(d.name) + '</h3>' +
+    '<span class="qual' + (todo ? " todo" : "") + '">' + esc(d.qualification) + '</span>' +
+    '<p>' + esc(d.bio) + '</p></div></article>';
+}).join("");
+document.querySelectorAll(".ph img").forEach(img => img.addEventListener("error", () => {
+  const n = img.alt.replace("Portrait of ", "");
+  img.outerHTML = '<div class="mono" aria-hidden="true">' + esc(initials(n)) + '</div>';
+}));
+
+const ACC = ["--c-teal", "--c-coral", "--c-amber", "--c-sky"];
+$("cons").innerHTML = CARD.consultants.map((c, i) =>
+  '<div class="pill" role="listitem" style="--ac:var(' + ACC[i % 4] + ')"><span class="av" aria-hidden="true">' + esc(initials(c.name)) +
+  '</span><span><b>' + esc(c.name) + '</b><small>' + esc(c.spec) + '</small></span></div>').join("");
+
+$("svc").innerHTML = CARD.services.map((s, i) => '<span class="svc a' + (i % 4) + '" role="listitem">' + esc(s) + '</span>').join("");
+
+/* ---------- live open / closed (always IST) ---------- */
+function nowIST() {
+  const p = new Intl.DateTimeFormat("en-GB", { timeZone: H.timezone, weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false })
+    .formatToParts(new Date()).reduce((o, x) => (o[x.type] = x.value, o), {});
+  return { day: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(p.weekday), min: (+p.hour % 24) * 60 + +p.minute };
+}
+function updateStatus() {
+  const { day, min } = nowIST(), el = $("status");
+  let open = false, text = "";
+  if (H.openDays.includes(day)) {
+    const cur = H.slots.find(s => min >= toMin(s[0]) && min < toMin(s[1]));
+    if (cur) { open = true; text = "Open now · until " + fmt(cur[1]); }
+  }
+  if (!open) {
+    let when = "";
+    if (H.openDays.includes(day)) {
+      const nx = H.slots.find(s => toMin(s[0]) > min);
+      if (nx) when = "today " + fmt(nx[0]);
+    }
+    if (!when) {
+      for (let i = 1; i <= 7; i++) {
+        const d = (day + i) % 7;
+        if (H.openDays.includes(d)) { when = (i === 1 ? "tomorrow" : DAYS[d]) + " " + fmt(H.slots[0][0]); break; }
+      }
+    }
+    text = "Closed now" + (when ? " · opens " + when : "");
+  }
+  el.className = "status " + (open ? "open" : "closed");
+  $("status-t").textContent = text;
+}
+updateStatus(); setInterval(updateStatus, 60000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) updateStatus(); });
+
+/* ---------- toast ---------- */
+let tt;
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(tt); tt = setTimeout(() => t.classList.remove("show"), 2400); }
+
+/* ---------- save contact (.vcf) ---------- */
+const vEsc = s => String(s).replace(/\\/g, "\\\\").replace(/([,;])/g, "\\$1").replace(/\n/g, "\\n");
+$("b-save").addEventListener("click", () => {
+  const vcf = ["BEGIN:VCARD", "VERSION:3.0",
+    "FN:" + vEsc(C.name), "N:" + vEsc(C.name) + ";;;;", "ORG:" + vEsc(C.name),
+    "TEL;TYPE=WORK,VOICE:" + T.phone,
+    "ADR;TYPE=WORK:;;" + [C.street + ", " + C.area, C.city, C.state, C.postalCode, "India"].map(vEsc).join(";"),
+    "URL:" + C.websiteUrl, "END:VCARD"].join("\r\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([vcf], { type: "text/vcard;charset=utf-8" }));
+  a.download = "sri-sai-dental-care.vcf";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  toast("Contact file downloaded");
+});
+
+/* ---------- share ---------- */
+$("b-share").addEventListener("click", async () => {
+  const url = C.cardUrl || location.href;
+  const data = { title: C.name, text: C.name + " — " + C.tagline, url };
+  if (navigator.share) {
+    try { await navigator.share(data); } catch (e) { /* user cancelled */ }
+    return;
+  }
+  try { await navigator.clipboard.writeText(url); }
+  catch (e) {
+    const ta = document.createElement("textarea"); ta.value = url; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); } catch (_) {} ta.remove();
+  }
+  toast("Link copied");
+});
+
+/* ---------- structured data (Dentist / LocalBusiness) ---------- */
+$("ld").textContent = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": ["Dentist", "LocalBusiness"],
+  name: C.name, description: C.tagline + " — since " + C.established,
+  url: C.websiteUrl, telephone: T.phone, foundingDate: C.established,
+  address: { "@type": "PostalAddress", streetAddress: C.street + ", " + C.area, addressLocality: C.city,
+             addressRegion: C.state, postalCode: C.postalCode, addressCountry: C.country },
+  geo: { "@type": "GeoCoordinates", latitude: C.geo.lat, longitude: C.geo.lng },
+  hasMap: CARD.links.googleListing, sameAs: [CARD.links.googleListing],
+  openingHoursSpecification: H.slots.map(s => ({ "@type": "OpeningHoursSpecification",
+    dayOfWeek: H.openDays.map(d => DAYS[d]), opens: s[0], closes: s[1] })),
+  employee: CARD.doctors.concat(CARD.consultants).map(d => ({ "@type": "Person", name: d.name, jobTitle: d.role || d.spec }))
+});
+
+</script>
+</body>
+</html>
